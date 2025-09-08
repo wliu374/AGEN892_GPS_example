@@ -4,6 +4,9 @@ from folium.plugins import TimestampedGeoJson
 import streamlit as st
 from streamlit_folium import st_folium
 import folium
+
+# Set the page layout to wide (full width)
+st.set_page_config(layout="wide")
 with open("./map.html", "r", encoding="utf-8") as f:
     map_html = f.read()
 st.title("Folium Map in Streamlit")
