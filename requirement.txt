@@ -1,5 +1,0 @@
-pandas
-streamlit
-streamlit-folium
-pyngrok
-folium
